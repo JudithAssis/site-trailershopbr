@@ -1,0 +1,39 @@
+# 1) Forçar HTTPS (Redirecionar HTTP para HTTPS)
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2) Padronizar www (Redirecionar www para não-www)
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# 3) Página 404 personalizada (força o retorno à home)
+ErrorDocument 404 /index.html
+
+# 4) Compressão gzip/deflate para performance
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# 5) Cache de Navegador (MUITO IMPORTANTE - REGRAS DE CACHE-BUSTING)
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Imagens e Mídias: 1 mês
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+
+    # CSS e JS: 1 semana
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+</IfModule>
+
+# HTML: 0 segundos (Forçar Cache-Control)
+<FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+</FilesMatch>
