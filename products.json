@@ -1,0 +1,516 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Purificador Fit 200 com Rosca de 1/2\", Planeta Água, Branco",
+    "link": "https://amzn.to/4qj4LEC",
+    "source": "amazon",
+    "image": "assets/img/purificador-fit-200-com-rosca-de-1-2-planeta-agua-2000-branco-pequeno.jpg",
+    "current_price": "R$ 76,53",
+    "original_price": "R$ 123,15"
+  },
+  {
+    "id": "prod-002",
+    "name": "Balança Digital Para Cozinha Western Até 10kg",
+    "link": "https://mercadolivre.com/sec/2qqFQ7p",
+    "source": "mercadolivre",
+    "image": "assets/img/balanca-digital-para-cozinha-western-ate-10kg.jpg",
+    "current_price": "R$ 19,00",
+    "original_price": "R$ 45,99",
+    "mlb_id": "MLB5765191080"
+  },
+  {
+    "id": "prod-003",
+    "name": "Br Spices Tempero Pote Br Spices Fit Completo 50G",
+    "link": "https://amzn.to/4pV0lD3",
+    "source": "amazon",
+    "image": "assets/img/br-spices-tempero-pote-br-spices-fit-completo-50g.jpg",
+    "current_price": "R$ 14,78",
+    "original_price": "R$ 0,30"
+  },
+  {
+    "id": "prod-004",
+    "name": "BR Spices Tempero Cúrcuma em pó 60G",
+    "link": "https://amzn.to/3YZqe9P",
+    "source": "amazon",
+    "image": "assets/img/br-spices-tempero-curcuma-em-po-60g.jpg",
+    "current_price": "R$ 10,99"
+  },
+  {
+    "id": "prod-005",
+    "name": "Tempero Páprica defuma 45g - BR Spices",
+    "link": "https://amzn.to/4rbvmUh",
+    "source": "amazon",
+    "image": "assets/img/tempero-paprica-defuma-45g-br-spices.jpg",
+    "current_price": "R$ 19,79",
+    "original_price": "R$ 0,44"
+  },
+  {
+    "id": "prod-006",
+    "name": "Tempero Pó Lemon Pepper Br Spices Gourmet Pote 100g",
+    "link": "https://amzn.to/4t4RcuA",
+    "source": "amazon",
+    "image": "assets/img/tempero-po-lemon-pepper-br-spices-gourmet-pote-100g.jpg",
+    "current_price": "R$ 19,04",
+    "original_price": "R$ 0,19"
+  },
+  {
+    "id": "prod-007",
+    "name": "BR Spices Tempero Chimichurri 70G",
+    "link": "https://amzn.to/4sXodss",
+    "source": "amazon",
+    "image": "assets/img/br-spices-tempero-chimichurri-70g.jpg",
+    "current_price": "R$ 17,59",
+    "original_price": "R$ 0,25"
+  },
+  {
+    "id": "prod-008",
+    "name": "Moedor Sal Marinho de Mossoró BR Spices 100G",
+    "link": "https://amzn.to/4afd5Qf",
+    "source": "amazon",
+    "image": "assets/img/brspices-moedor-sal-marinho-de-mossoro-br-spices-100g.jpg",
+    "current_price": "R$ 15,43",
+    "original_price": "R$ 20,39"
+  },
+  {
+    "id": "prod-009",
+    "name": "Kit 2 Lixeiras Suspensa Com Suporte De Pendurar 9 Lts",
+    "link": "https://meli.la/1QCzaTQ",
+    "source": "mercadolivre",
+    "image": "assets/img/kit-2-lixeiras-suspensa-com-suporte-de-pendurar-9-lts-tampa.jpg",
+    "current_price": "R$ 56,16",
+    "original_price": "R$ 78,99",
+    "mlb_id": "MLB6311717302"
+  },
+  {
+    "id": "prod-010",
+    "name": "Escorredor de Louça Dobrável em Silicone com Divisórias",
+    "link": "https://amzn.to/4rvYhCb",
+    "source": "amazon",
+    "image": "assets/img/escorredor-de-louca-dobravel-em-silicone-com-divisorias-para-talheres-e-copos.jpg",
+    "current_price": "R$ 59,99"
+  },
+  {
+    "id": "prod-011",
+    "name": "Tábua Bacia Cesta Retrátil Multifuncional Silicone",
+    "link": "https://amzn.to/4bMelv2",
+    "source": "amazon",
+    "image": "assets/img/tabua-bacia-cesta-retratil-multifuncional-silicone.jpg",
+    "current_price": "R$ 23,99",
+    "original_price": "R$ 34,97"
+  },
+  {
+    "id": "prod-012",
+    "name": "Conjunto 4 Potes Dobráveis de Silicone 350 a 1200ml",
+    "link": "https://amzn.to/473rn4I",
+    "source": "amazon",
+    "image": "assets/img/conjunto-4-potes-dobraveis-de-silicone-350-a-1200ml-redondo-e-retangular-livre-de-bpa-redondo-rosa.jpg",
+    "current_price": "R$ 72,32"
+  },
+  {
+    "id": "prod-013",
+    "name": "Fatiador de Legumes 14 em 1 Cortador Multifuncional",
+    "link": "https://amzn.to/4saGS39",
+    "source": "amazon",
+    "image": "assets/img/fatiador-de-legumes-14-em-1-cortador-ralador-e-picador-multifuncional-com-cesta-escorredora-e-recipiente.jpg",
+    "current_price": "R$ 46,00"
+  },
+  {
+    "id": "prod-014",
+    "name": "Escorredor De Silicone Ajustável Em Panelas Multiuso 22cm",
+    "link": "https://amzn.to/4sNTwoz",
+    "source": "amazon",
+    "image": "assets/img/escorredor-de-silicone-ajustavel-em-panelas-multiuso-22cm.jpg",
+    "current_price": "R$ 38,90"
+  },
+  {
+    "id": "prod-015",
+    "name": "Ralador de Queijo Manual com Manivela e 2 Lâminas Inox",
+    "link": "https://amzn.to/4lA9L6D",
+    "source": "amazon",
+    "image": "assets/img/ralador-de-queijo-manual-com-manivela-e-2-laminas-inox-rotativas-pratico-para-queijos-nozes-chocolate-utensilio-de-cozinha-duravel.jpg",
+    "current_price": "R$ 24,79"
+  },
+  {
+    "id": "prod-016",
+    "name": "Mini Processador De Alimentos 3 Lâminas Elétrico Bivolt Usb",
+    "link": "https://amzn.to/470UntP",
+    "source": "amazon",
+    "image": "assets/img/mini-processador-de-alimentos-3-laminas-eletrico-bivolt-usb-cores-variadas.jpg",
+    "current_price": "R$ 21,99",
+    "original_price": "R$ 40,00"
+  },
+  {
+    "id": "prod-017",
+    "name": "Escorredor De Silicone Retrátil Macarrão Legumes Dobrável",
+    "link": "https://amzn.to/3NHxW6m",
+    "source": "amazon",
+    "image": "assets/img/escorredor-de-silicone-alimentos-macarrao-legumes-frutas-retratil-multiuso-dobravel-cozinha-retangular-vermelho-com-cinza.jpg",
+    "current_price": "R$ 22,50",
+    "original_price": "R$ 1.554,20"
+  },
+  {
+    "id": "prod-018",
+    "name": "Liquidificador Fit Retrô Philco Blender Vermelho 300W",
+    "link": "https://amzn.to/4but2l2",
+    "source": "amazon",
+    "image": "assets/img/liquidificador-fit-retro-philco-blender-vermelho-300w-220v.jpg",
+    "current_price": "R$ 236,63",
+    "original_price": "R$ 265,90"
+  },
+  {
+    "id": "prod-019",
+    "name": "Fogão a Gás Portátil Multiuso Acampamento e Pesca Preto",
+    "link": "https://amzn.to/4bo5luF",
+    "source": "amazon",
+    "image": "assets/img/fogao-a-gas-portatil-multiuso-para-acampamento-e-pesca-economia-de-gas-preto.jpg",
+    "current_price": "R$ 98,53",
+    "original_price": "R$ 98,53"
+  },
+  {
+    "id": "prod-020",
+    "name": "Mochila Executiva Impermeável Notebook Até 15,6\"",
+    "link": "https://amzn.to/3YsH8xr",
+    "source": "amazon",
+    "image": "assets/img/mochila-executiva-impermeavel-de-notebook-para-feminina-masculina-de-ate-15-6.jpg",
+    "current_price": "R$ 170,99",
+    "original_price": "R$ 159,99"
+  },
+  {
+    "id": "prod-021",
+    "name": "Suporte Para Notebook E MacBook Alumínio Altura Ajustável",
+    "link": "https://amzn.to/4bcK7RL",
+    "source": "amazon",
+    "image": "assets/img/suporte-para-notebook-e-macbook-em-aluminio-com-altura-ajustavel.jpg",
+    "current_price": "R$ 20,99",
+    "original_price": "R$ 24,99"
+  },
+  {
+    "id": "prod-022",
+    "name": "Luminária de Mesa Led Recarregável Touch - 3 Tons de Luz",
+    "link": "https://amzn.to/4buy2pO",
+    "source": "amazon",
+    "image": "assets/img/luminaria-de-mesa-led-recarregavel-touch-3-tons-de-luz-escritorio-casa-mesa-estudo.jpg",
+    "current_price": "R$ 19,90"
+  },
+  {
+    "id": "prod-023",
+    "name": "Adaptador Hub 7 em 1 USB-C Premium HDMI 4K 60Hz",
+    "link": "https://amzn.to/4sOjsAE",
+    "source": "amazon",
+    "image": "assets/img/adaptador-hub-7-em-1-usb-c-premium-com-saida-hdmi-4k-a-60hz-7-portas-usb-3-0-leitor-de-cartao-sd-fonte-de-alimentacao-tipo-c-carregamento-rapido-multiportas.jpg",
+    "current_price": "R$ 39,90"
+  },
+  {
+    "id": "prod-024",
+    "name": "Adaptador USB-C para HDMI 4K Multiportas MacBook Pro",
+    "link": "https://amzn.to/4sjMPLi",
+    "source": "amazon",
+    "image": "assets/img/adaptador-usb-c-para-hdmi-usb-3-1-tipo-c-para-hdmi-4k-multiportas-conversor-av-com-porta-usb-3-0-mac-hdmi-adaptador-usb-c-digital-av-multiportas-para-macbook-pro-s8-s9-projetor-monitor.jpg",
+    "current_price": "R$ 33,99",
+    "original_price": "R$ 238,89"
+  },
+  {
+    "id": "prod-025",
+    "name": "Mouse Vertical Ergonômico Sem Fio Bluetooth Recarregável",
+    "link": "https://amzn.to/4sdBYCx",
+    "source": "amazon",
+    "image": "assets/img/mouse-vertical-ergonomico-sem-fio-2-4g-bluetooth-4-niveis-dpi-ajustavel-clique-silencioso-e-recarregavel-para-alivio-muscular-preto.jpg",
+    "current_price": "R$ 79,00"
+  },
+  {
+    "id": "prod-026",
+    "name": "Mesa Dobrável 120cm Resistente Para Camping Garden Life",
+    "link": "https://amzn.to/3XLw2mT",
+    "source": "amazon",
+    "image": "assets/img/mesa-dobravel-120cm-resistente-para-camping-garden-life-acampamentos-churrascos-piqueniques-caminhadas-pesca-preto.jpg",
+    "current_price": "R$ 219,00",
+    "original_price": "R$ 55,00"
+  },
+  {
+    "id": "prod-027",
+    "name": "Kit Parafusadeira e Furadeira 3.6V com 47 peças",
+    "link": "https://amzn.to/3MWkv1B",
+    "source": "amazon",
+    "image": "assets/img/parafusadeira-furadeira-chave-de-fenda-eletrica-de-3-6v-furadeira-parafudadeira-3-6v-kit-parafusadeira-com-47pcs-conjunto-com-47-pcs-com-furadeira-e-chave-de-fenda-eletrica.jpg",
+    "current_price": "R$ 55,00",
+    "original_price": "R$ 67,00"
+  },
+  {
+    "id": "prod-028",
+    "name": "Câmera de Backup Digital sem fio Yuwei Monitor 10cm",
+    "link": "https://amzn.to/4pFoNZS",
+    "source": "amazon",
+    "image": "assets/img/yuwei-sistema-de-camera-de-backup-digital-sem-fio-com-monitor-de-re-sem-fio-de-10-cm-sinal-sem-fio-estavel-e-sem-interferencia-para-carros-picapes-trailers-suvs-sedans-minivans-vans-de-carga.jpg",
+    "current_price": "R$ 1.132,36",
+    "original_price": "R$ 209,90"
+  },
+  {
+    "id": "prod-029",
+    "name": "Suporte Starlink Mini Carro Painel Fonken",
+    "link": "https://amzn.to/48YaWH4",
+    "source": "amazon",
+    "image": "assets/img/fonken-starlink-mini-suporte-de-carro-para-painel-e-para-brisa-adequado-para-a-maioria-dos-veiculos-garante-sinal-de-satelite-estavel.jpg",
+    "current_price": "R$ 83,00"
+  },
+  {
+    "id": "prod-030",
+    "name": "Adaptador Carplay e Android Auto sem Fio Universal",
+    "link": "https://amzn.to/3Yszkf7",
+    "source": "amazon",
+    "image": "assets/img/adaptador-carplay-e-android-auto-sem-fio-universal.jpg",
+    "current_price": "R$ 162,78",
+    "original_price": "R$ 221,12"
+  },
+  {
+    "id": "prod-031",
+    "name": "Adaptador Sem Fio Carplay E Android Auto Universal Wi-fi WLK",
+    "link": "https://meli.la/1GPy37Y",
+    "source": "mercadolivre",
+    "image": "assets/img/adaptador-sem-fio-carplay-e-android-auto-universal-wi-fi-wlk-automotive-wk-air-cor-preto.jpg",
+    "current_price": "R$ 169,00",
+    "original_price": "R$ 279,00",
+    "mlb_id": "MLB4129234911"
+  },
+  {
+    "id": "prod-032",
+    "name": "Puxador Trava Push Lock Click Motorhome Trailer",
+    "link": "https://meli.la/1PSE15x",
+    "source": "mercadolivre",
+    "image": "assets/img/puxador-trava-push-lock-click-motorhome-trailer-gaveta-1-un-perola-niquel.jpg",
+    "current_price": "R$ 29,00",
+    "mlb_id": "MLB5905254548"
+  },
+  {
+    "id": "prod-033",
+    "name": "Tomada De Engate Da Carreta Retangular 7 Polos Cinza",
+    "link": "https://meli.la/2ZDVnyb",
+    "source": "mercadolivre",
+    "image": "assets/img/tomada-de-engate-da-carreta-retangular-7-polos-macho-e-femea-cinza.jpg",
+    "current_price": "R$ 85,17",
+    "original_price": "R$ 89,66",
+    "mlb_id": "MLB6439207044"
+  },
+  {
+    "id": "prod-034",
+    "name": "Grelha De Ar Condicionado Para Rv, 2 Peças",
+    "link": "https://meli.la/2dHEy22",
+    "source": "mercadolivre",
+    "image": "assets/img/grelha-de-ar-condicionado-para-rv-2-pecas-duto-de-ar.jpg",
+    "current_price": "R$ 53,24",
+    "original_price": "R$ 74,60",
+    "mlb_id": "MLB5977728576"
+  },
+  {
+    "id": "prod-035",
+    "name": "Tampa De Pára-choque De Rv, Tampa De Extremidade Do Plugue",
+    "link": "https://meli.la/18kUDc3",
+    "source": "mercadolivre",
+    "image": "assets/img/tampa-de-para-choque-de-rv-tampa-de-extremidade-do-plugue-d.jpg",
+    "current_price": "R$ 138,70",
+    "mlb_id": "MLB6080843118"
+  },
+  {
+    "id": "prod-036",
+    "name": "Zabcon Kit 8 Travas Gaveta Armário Segurança Infantil",
+    "link": "https://meli.la/1bYguf9",
+    "source": "mercadolivre",
+    "image": "assets/img/zabcon-kit-8-travas-gaveta-armario-seguranca-infantil-bebe-cor-preto.jpg",
+    "current_price": "R$ 14,90",
+    "mlb_id": "MLB4498632667"
+  },
+  {
+    "id": "prod-037",
+    "name": "Kit4 Limpa Ar Condicionado Purificador Ar Carro Wurth 145ml",
+    "link": "https://meli.la/25NPYJn",
+    "source": "mercadolivre",
+    "image": "assets/img/kit4-limpa-ar-condicionado-purificador-ar-carro-wurth-145ml.jpg",
+    "current_price": "R$ 99,43",
+    "mlb_id": "MLB3632113527"
+  },
+  {
+    "id": "prod-038",
+    "name": "Geladeira Portátil Elber Cab30 28L Rodas E Bateria Interna",
+    "link": "https://meli.la/1MTLKkB",
+    "source": "mercadolivre",
+    "image": "assets/img/geladeira-portatil-elber-cab30-28l-rodas-e-bateria-interna-12v-24v-110v-220v.jpg",
+    "current_price": "R$ 4.699,94",
+    "mlb_id": "MLB6154195112"
+  },
+  {
+    "id": "prod-039",
+    "name": "Graxa De Silicone Dielétrica 100g Pote Implastec",
+    "link": "https://meli.la/1ZZpBaC",
+    "source": "mercadolivre",
+    "image": "assets/img/graxa-de-silicone-dieletrica-100g-pote-implastec.jpg",
+    "current_price": "R$ 29,99",
+    "mlb_id": "MLB6058363622"
+  },
+  {
+    "id": "prod-040",
+    "name": "Luz De Acampamento Portátil Ao Ar Livre",
+    "link": "https://meli.la/15q8aCF",
+    "source": "mercadolivre",
+    "image": "assets/img/luz-de-acampamento-luz-de-barraca-portatil-ao-ar-livre-pen.jpg",
+    "current_price": "R$ 43,84",
+    "mlb_id": "MLB4206937471"
+  },
+  {
+    "id": "prod-041",
+    "name": "Luz Noturna De Barraca Acampamento Portátil Solar Lanterna",
+    "link": "https://meli.la/2in3Gy4",
+    "source": "mercadolivre",
+    "image": "assets/img/luz-noturna-de-barraca-de-acampamento-portatil-solar-lanter.jpg",
+    "current_price": "R$ 35,18",
+    "mlb_id": "MLB5535015274"
+  },
+  {
+    "id": "prod-042",
+    "name": "Ducha Higiênica Bidê Jato Duplo Smart Depot",
+    "link": "https://meli.la/1DrS1ft",
+    "source": "mercadolivre",
+    "image": "assets/img/ducha-higienica-bide-jato-duplo-smart-depot.jpg",
+    "current_price": "R$ 189,99",
+    "original_price": "R$ 299,99",
+    "mlb_id": "MLB6288589488"
+  },
+  {
+    "id": "prod-043",
+    "name": "Desinfetante Uso Geral Líquido Floral Plus Ultra C/ Dosador",
+    "link": "https://meli.la/2DyQVBs",
+    "source": "mercadolivre",
+    "image": "assets/img/desinfetante-uso-geral-liquido-floral-plus-ultra-c-dosador.jpg",
+    "current_price": "R$ 47,16",
+    "original_price": "R$ 49,65",
+    "mlb_id": "MLB3866601393"
+  },
+  {
+    "id": "prod-044",
+    "name": "Porta Escova De Dente Esterilizador Uv Recarregamento Solar",
+    "link": "https://amzn.to/4soSBvw",
+    "source": "amazon",
+    "image": "assets/img/porta-escova-de-dente-esterilizador-uv-recarregamento-solar-esterilizador-de-escova-de-dentes-uv-desinfeccao-inteligente-recarregavel-secagem-rapida-suporte-de-escova-de-dentes-fixado-na-parede-com-display-led-banheiro.jpg",
+    "current_price": "R$ 34,99",
+    "original_price": "R$ 42,89"
+  },
+  {
+    "id": "prod-045",
+    "name": "Bolsinhas Femininas De Mão Pequena Meia Lua",
+    "link": "https://amzn.to/4jxpHWb",
+    "source": "amazon",
+    "image": "assets/img/bolsinhas-femininas-de-mao-pequena-meia-lua.jpg",
+    "current_price": "R$ 29,90",
+    "original_price": "R$ 49,90"
+  },
+  {
+    "id": "prod-046",
+    "name": "Bolsa Feminina LukeSports Curvada Mini",
+    "link": "https://amzn.to/4qQcoCK",
+    "source": "amazon",
+    "image": "assets/img/bolsa-feminina-lukesports-curvada-mini-estilo-e-versatilidade-no-seu-dia-a-dia.jpg",
+    "current_price": "R$ 44,99",
+    "original_price": "R$ 169,00"
+  },
+  {
+    "id": "prod-047",
+    "name": "XIAOMI Robot Vacuum X10 - Robot aspirador",
+    "link": "https://amzn.to/3OYrl85",
+    "source": "amazon",
+    "image": "assets/img/xiaomi-robot-vacuum-x10-robot-aspirador-e-limpa-chao-com-sistema-inteligente-de-navegacao-a-laser-lds-succao-de-4000-pa-base-de-auto-esvaziamento-5200-mah-branco.jpg",
+    "current_price": "R$ 3.259,90",
+    "original_price": "R$ 3.299,00"
+  },
+  {
+    "id": "prod-048",
+    "name": "Sérum Facial Cetaphil Healthy Renew 30ml",
+    "link": "https://mercadolivre.com/sec/34abspA",
+    "source": "mercadolivre",
+    "image": "assets/img/serum-facial-cetaphil-healthy-renew-30ml.jpg",
+    "current_price": "R$ 147,00",
+    "original_price": "R$ 199,90",
+    "mlb_id": "MLB3303468475"
+  },
+  {
+    "id": "prod-049",
+    "name": "Darrow Actine Oil Control Gel de Limpeza Dermatológico 300g",
+    "link": "https://mercadolivre.com/sec/1sspvnD",
+    "source": "mercadolivre",
+    "image": "assets/img/darrow-actine-oil-control-gel-de-limpeza-dermatologico-facial-refil-300g.jpg",
+    "current_price": "R$ 51,22",
+    "original_price": "R$ 71,99",
+    "mlb_id": "MLB3633716487"
+  },
+  {
+    "id": "prod-050",
+    "name": "Mantecorp Hidratante Facial Epidrat Calm Restaurador - 40g",
+    "link": "https://mercadolivre.com/sec/1TPbTDL",
+    "source": "mercadolivre",
+    "image": "assets/img/mantecorp-hidratante-facial-epidrat-calm-restaurador-40g.jpg",
+    "current_price": "R$ 69,93",
+    "original_price": "R$ 99,90",
+    "mlb_id": "MLB2677249734"
+  },
+  {
+    "id": "prod-051",
+    "name": "Kit 3 Bepantol Baby Pomada Antiassaduras 120g",
+    "link": "https://meli.la/1bk2xr3",
+    "source": "mercadolivre",
+    "image": "assets/img/kit-3-bepantol-baby-pomada-antiassaduras-120g-total-360g.jpg",
+    "current_price": "R$ 143,00",
+    "original_price": "R$ 209,99",
+    "mlb_id": "MLB3928390543"
+  },
+  {
+    "id": "prod-052",
+    "name": "Kit 2 Suporte Porta Shampoo Adesivo Luxo Preto Brielli",
+    "link": "https://meli.la/1V6Bj6d",
+    "source": "mercadolivre",
+    "image": "assets/img/kit-2-suporte-porta-shampoo-de-canto-sabonete-banheiro-adesivo-parede-sem-furos-box-luxo-cor-preto-brielli-home.jpg",
+    "current_price": "R$ 29,90",
+    "original_price": "R$ 69,90",
+    "mlb_id": "MLB4262454411"
+  },
+  {
+    "id": "prod-053",
+    "name": "Organizador De Acrílico Giratório p/ jóias e maquiagem",
+    "link": "https://amzn.to/4sRKjMk",
+    "source": "amazon",
+    "image": "assets/img/organizador-de-acrilico-giratorio-p-joias-maquiagem.jpg",
+    "current_price": "R$ 37,90",
+    "original_price": "R$ 44,99"
+  },
+  {
+    "id": "prod-054",
+    "name": "Varal Vertical De Chão Retrátil Dobrável 3 Andares",
+    "link": "https://amzn.to/4uQ3esL",
+    "source": "amazon",
+    "image": "assets/img/varal-vertical-de-chao-retratil-dobravel-3-andares-reforcado-base-antiderrapante-10kg-leve-portatil-para-pequenos-espacos-resistente.jpg",
+    "current_price": "R$ 99,90",
+    "original_price": "R$ 99,99"
+  },
+  {
+    "id": "prod-055",
+    "name": "Powermaid Balde Retrátil de Silicone Multiuso 10 Litros",
+    "link": "https://amzn.to/3P3YaR7",
+    "source": "amazon",
+    "image": "assets/img/powermaid-balde-retratil-de-silicone-multiuso-com-alca-dobravel-10-litros.jpg",
+    "current_price": "R$ 34,40",
+    "original_price": "R$ 114,78"
+  },
+  {
+    "id": "prod-056",
+    "name": "Varal retrátil com 12 clipes para viagens",
+    "link": "https://amzn.to/47PIJSO",
+    "source": "amazon",
+    "image": "assets/img/varal-retratil-com-12-clipes-para-viagens-uso-interno-e-externo-cor.jpg",
+    "current_price": "R$ 43,77",
+    "original_price": "R$ 99,99"
+  },
+  {
+    "id": "prod-057",
+    "name": "Esfregão Elétrico 9 em 1 Recarregável Mop 360° Sem Fio",
+    "link": "https://amzn.to/4sg6cF7",
+    "source": "amazon",
+    "image": "assets/img/esfregao-eletrico-profissional-9-em-1-recarregavel-mop-360o-sem-fio-potente-portatil-limpeza-pesada-banheiro-cozinha-piso-azulejo-janela-escova-multiuso-compacto-giratorio-casa-premium-ajustavel.jpg",
+    "current_price": "R$ 89,99"
+  }
+]
