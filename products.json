@@ -5,7 +5,7 @@
     "link": "https://amzn.to/4qj4LEC",
     "source": "amazon",
     "image": "assets/img/purificador-fit-200-com-rosca-de-1-2-planeta-agua-2000-branco-pequeno.jpg",
-    "current_price": "R$ 76,53",
+    "current_price": "R$ 78,90",
     "original_price": "R$ 123,15"
   },
   {
@@ -145,8 +145,7 @@
     "link": "https://amzn.to/3NHxW6m",
     "source": "amazon",
     "image": "assets/img/escorredor-de-silicone-alimentos-macarrao-legumes-frutas-retratil-multiuso-dobravel-cozinha-retangular-vermelho-com-cinza.jpg",
-    "current_price": "R$ 22,50",
-    "original_price": "R$ 23,20"
+    "current_price": "R$ 22,50"
   },
   {
     "id": "prod-018",
@@ -154,7 +153,7 @@
     "link": "https://amzn.to/4but2l2",
     "source": "amazon",
     "image": "assets/img/liquidificador-fit-retro-philco-blender-vermelho-300w-220v.jpg",
-    "current_price": "R$ 236,63",
+    "current_price": "R$ 235,45",
     "original_price": "R$ 265,90"
   },
   {
@@ -163,8 +162,7 @@
     "link": "https://amzn.to/4bo5luF",
     "source": "amazon",
     "image": "assets/img/fogao-a-gas-portatil-multiuso-para-acampamento-e-pesca-economia-de-gas-preto.jpg",
-    "current_price": "R$ 98,53",
-    "original_price": "R$ 98,53"
+    "current_price": "R$ 98,53"
   },
   {
     "id": "prod-020",
@@ -246,7 +244,7 @@
     "link": "https://amzn.to/48YaWH4",
     "source": "amazon",
     "image": "assets/img/fonken-starlink-mini-suporte-de-carro-para-painel-e-para-brisa-adequado-para-a-maioria-dos-veiculos-garante-sinal-de-satelite-estavel.jpg",
-    "current_price": "R$ 83,00"
+    "current_price": "R$ 77,99"
   },
   {
     "id": "prod-030",
@@ -304,15 +302,6 @@
     "image": "assets/img/tampa-de-para-choque-de-rv-tampa-de-extremidade-do-plugue-d.jpg",
     "current_price": "R$ 138,70",
     "mlb_id": "MLB6080843118"
-  },
-  {
-    "id": "prod-036",
-    "name": "Zabcon Kit 8 Travas Gaveta Armário Segurança Infantil",
-    "link": "https://meli.la/1bYguf9",
-    "source": "mercadolivre",
-    "image": "assets/img/zabcon-kit-8-travas-gaveta-armario-seguranca-infantil-bebe-cor-preto.jpg",
-    "current_price": "R$ 14,90",
-    "mlb_id": "MLB4498632667"
   },
   {
     "id": "prod-037",
@@ -385,7 +374,7 @@
     "link": "https://amzn.to/4soSBvw",
     "source": "amazon",
     "image": "assets/img/porta-escova-de-dente-esterilizador-uv-recarregamento-solar-esterilizador-de-escova-de-dentes-uv-desinfeccao-inteligente-recarregavel-secagem-rapida-suporte-de-escova-de-dentes-fixado-na-parede-com-display-led-banheiro.jpg",
-    "current_price": "R$ 34,99"
+    "current_price": "R$ 34,50"
   },
   {
     "id": "prod-045",
@@ -393,8 +382,7 @@
     "link": "https://amzn.to/4jxpHWb",
     "source": "amazon",
     "image": "assets/img/bolsinhas-femininas-de-mao-pequena-meia-lua.jpg",
-    "current_price": "R$ 29,90",
-    "original_price": "R$ 49,90"
+    "current_price": "R$ 29,90"
   },
   {
     "id": "prod-046",
@@ -485,7 +473,7 @@
     "link": "https://amzn.to/3P3YaR7",
     "source": "amazon",
     "image": "assets/img/powermaid-balde-retratil-de-silicone-multiuso-com-alca-dobravel-10-litros.jpg",
-    "current_price": "R$ 34,40"
+    "current_price": "R$ 29,65"
   },
   {
     "id": "prod-056",
@@ -501,6 +489,6 @@
     "link": "https://amzn.to/4sg6cF7",
     "source": "amazon",
     "image": "assets/img/esfregao-eletrico-profissional-9-em-1-recarregavel-mop-360o-sem-fio-potente-portatil-limpeza-pesada-banheiro-cozinha-piso-azulejo-janela-escova-multiuso-compacto-giratorio-casa-premium-ajustavel.jpg",
-    "current_price": "R$ 89,99"
+    "current_price": "R$ 89,98"
   }
 ]

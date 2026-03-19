@@ -201,7 +201,7 @@ def get_amazon_price(product):
 
 # ─── HTML Updater ────────────────────────────────────────────────
 def update_html_price(html, product, new_price, new_orig):
-    """Update the price in the HTML for a specific product card using targeted regex."""
+    """Update the price in the HTML for a specific product card by rewriting the price block."""
     old_price = product['current_price']
     old_orig = product.get('original_price')
     new_price_str = format_price(new_price)
@@ -217,32 +217,34 @@ def update_html_price(html, product, new_price, new_orig):
         return html, False
 
     block = match.group(1)
-    new_block = block
-    changed = False
+    
+    # Extract the block containing the prices and Oferta badge
+    div_match = re.search(r'(<div class="mt-auto pt-2">)(.*?)(</div>)', block, re.DOTALL)
+    if not div_match:
+        print(f"  ✗ Price container not found in HTML block")
+        return html, False
+        
+    old_inner_html = div_match.group(2)
 
-    # Check if price changed
-    if old_price != new_price_str:
-        # Replace the contents of the element with class text-green-600
-        new_block = re.sub(
-            r'(<p[^>]*text-green-600[^>]*>)([^<]*)(</p>)',
-            rf'\g<1>{new_price_str}\g<3>',
-            new_block
-        )
-        changed = True
-
-    # Check original price
-    if new_orig:
+    # Check if there is a real offer (original price is higher than current price)
+    if new_orig and new_orig > new_price + 0.01:
         new_orig_str = format_price(new_orig)
-        if old_orig != new_orig_str:
-            new_block = re.sub(
-                r'(<p[^>]*line-through[^>]*>)([^<]*)(</p>)',
-                rf'\g<1>{new_orig_str}\g<3>',
-                new_block
-            )
-            # If line-through didn't exist but we need to add it, it would require DOM structural changes. 
-            # We assume it exists if original_price is set.
-            changed = True
+        inner_html = f'''
+                                            <span class="inline-flex items-center bg-red-500 text-white text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">🏷️ Oferta</span>
+                                            <p class="text-[11px] text-gray-400 mt-1 line-through">{new_orig_str}</p>
+                                            <p class="text-sm font-bold text-green-600">{new_price_str}</p>
+                                        '''
+    else:
+        # No real offer, just the price
+        # Using mt-1 on the price to keep the alignment
+        inner_html = f'''
+                                            <p class="text-sm font-bold text-green-600 mt-1">{new_price_str}</p>
+                                        '''
 
+    new_div = f"{div_match.group(1)}{inner_html}{div_match.group(3)}"
+    new_block = block.replace(div_match.group(0), new_div)
+
+    changed = (block != new_block)
     if changed:
         html = html.replace(block, new_block)
 
@@ -292,22 +294,32 @@ def main():
             old_price = parse_price(prod['current_price'])
             new_fmt = format_price(new_price)
 
-            if old_price and abs(old_price - new_price) < 0.01:
-                print(f"  ✓ Unchanged: {prod['current_price']}")
-                continue
+            is_price_changed = False
+            if old_price is None or abs(old_price - new_price) >= 0.01:
+                is_price_changed = True
 
-            print(f"  💰 Changed: {prod['current_price']} → {new_fmt}")
-
-            html, changed = update_html_price(html, prod, new_price, new_orig)
-            if changed:
+            # Always update HTML to ensure the structure (Oferta tags) is correct
+            html, html_changed = update_html_price(html, prod, new_price, new_orig)
+            
+            if is_price_changed or html_changed:
+                if is_price_changed:
+                    print(f"  💰 Changed: {format_price(old_price) if old_price else 'N/A'} → {new_fmt}")
+                else:
+                    print(f"  ✓ Layout fixed: {prod['current_price']}")
+                    
                 prod['current_price'] = new_fmt
                 if new_orig:
                     prod['original_price'] = format_price(new_orig)
+                elif 'original_price' in prod: # removing original price from JSON if it no longer has one
+                    del prod['original_price']
+                    
                 updates.append({
                     'name': prod['name'],
-                    'old': format_price(old_price),
+                    'old': format_price(old_price) if old_price else 'N/A',
                     'new': new_fmt,
                 })
+            else:
+                print(f"  ✓ Unchanged: {prod['current_price']}")
 
         except Exception as e:
             print(f"  ✗ Error: {e}")
