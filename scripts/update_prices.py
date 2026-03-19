@@ -150,8 +150,11 @@ def get_amazon_price(product):
     original_price = None
 
     # Strategy 1: price in corePrice feature
-    m = re.search(r'class="a-price-whole"[^>]*>([\d.]+)', html)
-    m2 = re.search(r'class="a-price-fraction"[^>]*>(\d+)', html)
+    core_block = re.search(r'id="corePrice(?:Display_desktop)?_feature_div"(.*?)</div>', html, re.DOTALL)
+    search_area = core_block.group(1) if core_block else html
+
+    m = re.search(r'class="a-price-whole"[^>]*>([\d.]+)', search_area)
+    m2 = re.search(r'class="a-price-fraction"[^>]*>(\d+)', search_area)
     if m and m2:
         try:
             current_price = float(m.group(1).replace('.', '') + '.' + m2.group(1))
@@ -160,7 +163,7 @@ def get_amazon_price(product):
 
     # Strategy 2: priceblock IDs
     if not current_price:
-        m = re.search(r'id="priceblock_(?:ourprice|dealprice|saleprice)"[^>]*>\s*R\$\s*([\d.,]+)', html)
+        m = re.search(r'id="priceblock_(?:ourprice|dealprice|saleprice)"[^>]*>\s*R\$\s*([\d.,]+)', search_area)
         if m:
             try:
                 current_price = float(m.group(1).replace('.', '').replace(',', '.'))
@@ -186,7 +189,7 @@ def get_amazon_price(product):
                 pass
 
     # Original/list price (strikethrough)
-    m = re.search(r'class="[^"]*a-text-price[^"]*"[^>]*>.*?<span[^>]*>R\$\s*([\d.,]+)', html, re.DOTALL)
+    m = re.search(r'class="[^"]*a-text-strike[^"]*"[^>]*>(?:<span[^>]*>)?\s*R\$\s*([\d.,]+)', html, re.DOTALL)
     if m:
         try:
             original_price = float(m.group(1).replace('.', '').replace(',', '.'))
@@ -198,11 +201,11 @@ def get_amazon_price(product):
 
 # ─── HTML Updater ────────────────────────────────────────────────
 def update_html_price(html, product, new_price, new_orig):
-    """Update the price in the HTML for a specific product card."""
+    """Update the price in the HTML for a specific product card using targeted regex."""
     old_price = product['current_price']
     old_orig = product.get('original_price')
     new_price_str = format_price(new_price)
-
+    
     if not new_price_str:
         return html, False
 
@@ -217,16 +220,27 @@ def update_html_price(html, product, new_price, new_orig):
     new_block = block
     changed = False
 
-    # Update current price
+    # Check if price changed
     if old_price != new_price_str:
-        new_block = new_block.replace(f'>{old_price}<', f'>{new_price_str}<')
+        # Replace the contents of the element with class text-green-600
+        new_block = re.sub(
+            r'(<p[^>]*text-green-600[^>]*>)([^<]*)(</p>)',
+            rf'\g<1>{new_price_str}\g<3>',
+            new_block
+        )
         changed = True
 
-    # Update original price
+    # Check original price
     if new_orig:
         new_orig_str = format_price(new_orig)
-        if old_orig and old_orig != new_orig_str:
-            new_block = new_block.replace(f'>{old_orig}<', f'>{new_orig_str}<')
+        if old_orig != new_orig_str:
+            new_block = re.sub(
+                r'(<p[^>]*line-through[^>]*>)([^<]*)(</p>)',
+                rf'\g<1>{new_orig_str}\g<3>',
+                new_block
+            )
+            # If line-through didn't exist but we need to add it, it would require DOM structural changes. 
+            # We assume it exists if original_price is set.
             changed = True
 
     if changed:
