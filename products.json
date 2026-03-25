@@ -504,5 +504,12 @@
     "source": "mercadolivre",
     "image": "assets/img/perfume-salvo-intense.jpg",
     "current_price": "R$ 149,90"
+  },
+  {
+    "name": "Black & Decker Vaporizador Compacto Portátil",
+    "link": "https://amzn.to/4bJPhUq",
+    "source": "amazon",
+    "image": "assets/img/vaporizador-black-decker.jpg",
+    "current_price": "R$ 159,90"
   }
 ]
