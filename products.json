@@ -511,5 +511,19 @@
     "source": "amazon",
     "image": "assets/img/vaporizador-black-decker.jpg",
     "current_price": "R$ 159,90"
+  },
+  {
+    "name": "Mt84 Mini Torch Selfie Stick",
+    "link": "https://meli.la/1jYuJja",
+    "source": "mercadolivre",
+    "image": "assets/img/mt84-selfie-stick.jpg",
+    "current_price": "R$ 119,90"
+  },
+  {
+    "name": "Sal Marinho Integral Moído Natural 2kg Quanqton Ocen Salt",
+    "link": "https://meli.la/2vyZijF",
+    "source": "mercadolivre",
+    "image": "assets/img/sal-marinho.jpg",
+    "current_price": "R$ 49,90"
   }
 ]
