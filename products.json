@@ -510,7 +510,7 @@
     "link": "https://amzn.to/4bJPhUq",
     "source": "amazon",
     "image": "assets/img/vaporizador-black-decker.jpg",
-    "current_price": "R$ 217,00"
+    "current_price": "R$ 217,00",
     "original_price": "R$ 329,00"
   },
   {
@@ -526,5 +526,125 @@
     "source": "mercadolivre",
     "image": "assets/img/sal-marinho.jpg",
     "current_price": "R$ 49,90"
+  },
+  {
+    "name": "Kit 2 Prateleira Adesiva Suporte Banheiro Chuveiro Sem Furo",
+    "link": "https://meli.la/13XzRyg",
+    "source": "mercadolivre",
+    "image": "assets/img/kit-2-prateleira-adesiva-suporte-banheiro-chuveiro-sem-furo.jpg",
+    "current_price": "R$ 44,90",
+    "mlb_id": "MLB107030115043"
+  },
+  {
+    "name": "Câmera Veicular 1080p Hd 4 Canais Com Visão Noturna 360°",
+    "link": "https://meli.la/2CJCqjE",
+    "source": "mercadolivre",
+    "image": "assets/img/camera-veicular-1080p-hd-4-canais-com-visao-noturna-360.jpg",
+    "current_price": "R$ 189,90",
+    "mlb_id": "MLB109392666452"
+  },
+  {
+    "name": "Kit 2 Prateleiras Cozinha Utensílios Temperos Preto 30cm",
+    "link": "https://meli.la/1tcWbeM",
+    "source": "mercadolivre",
+    "image": "assets/img/kit-2-prateleiras-cozinha-utensilios-temperos-preto-30cm.jpg",
+    "current_price": "R$ 54,90",
+    "mlb_id": "MLB72573057591"
+  },
+  {
+    "name": "Estojo Armazenamento Portátil Para Dji Neo Drone Confortável",
+    "link": "https://meli.la/1EcBGUY",
+    "source": "mercadolivre",
+    "image": "assets/img/estojo-armazenamento-portatil-para-dji-neo-drone-confortavel.jpg",
+    "current_price": "R$ 129,90",
+    "mlb_id": "MLB2073006096"
+  },
+  {
+    "name": "Buba Hora do Soninho Girafinha Pelúcia Macia Cor Marrom",
+    "link": "https://meli.la/2etnGBR",
+    "source": "mercadolivre",
+    "image": "assets/img/buba-hora-do-soninho-girafinha-pelucia-macia-cor-marrom.jpg",
+    "current_price": "R$ 89,90",
+    "mlb_id": "MLB23170607"
+  },
+  {
+    "name": "Bateria Solar 12v 460ah Lifepo4 5,88kwh Bms Bluetooth Ip65",
+    "link": "https://meli.la/2dfF9Kk",
+    "source": "mercadolivre",
+    "image": "assets/img/bateria-solar-12v-460ah-lifepo4-5-88kwh-bms-bluetooth-ip65.jpg",
+    "current_price": "R$ 14.899,00",
+    "mlb_id": "MLB106660343599"
+  },
+  {
+    "name": "Inversor Híbrido Baixa Frequência 12v 3kva Motorhome",
+    "link": "https://meli.la/1KVUdd7",
+    "source": "mercadolivre",
+    "image": "assets/img/inversor-hibrido-baixa-frequencia-12v-3kva-motorhome.jpg",
+    "current_price": "R$ 3.990,00",
+    "mlb_id": "MLB105356520025"
+  },
+  {
+    "name": "1x Prostazen 60 Caps Envio Hoje - Única Loja Oficial",
+    "link": "https://meli.la/2yvEYCe",
+    "source": "mercadolivre",
+    "image": "assets/img/1x-prostazen-60-caps-envio-hoje-unica-loja-oficial.jpg",
+    "current_price": "R$ 197,00",
+    "mlb_id": "MLB109318716722"
+  },
+  {
+    "name": "Gimbal Estabilizador Com 3 Eixos Celular Tokqi M01 Portátil",
+    "link": "https://meli.la/1crkRv6",
+    "source": "mercadolivre",
+    "image": "assets/img/gimbal-estabilizador-com-3-eixos-celular-tokqi-m01-portatil.jpg",
+    "current_price": "R$ 298,00",
+    "mlb_id": "MLB101982394028"
+  },
+  {
+    "name": "Kit De Iluminação Led Foto Vídeo + Controle Tripé 2m Bivolt",
+    "link": "https://meli.la/2Juoc5x",
+    "source": "mercadolivre",
+    "image": "assets/img/kit-de-iluminacao-led-foto-video-controle-tripe-2m-bivolt.jpg",
+    "current_price": "R$ 289,90",
+    "mlb_id": "MLB80510529465"
+  },
+  {
+    "name": "Guincho Elétrico 3000LB Cabo Aço 6m 1361Kg Importway",
+    "link": "https://meli.la/1QLuboW",
+    "source": "mercadolivre",
+    "image": "assets/img/guincho-eletrico-3000lb-cabo-aco-6m-1361kg-importway.jpg",
+    "current_price": "R$ 1.199,00",
+    "mlb_id": "MLB27730372"
+  },
+  {
+    "name": "Painel 1 Placa Fotovoltaica 550w Da Solar Energia Solar",
+    "link": "https://meli.la/2MDFesv",
+    "source": "mercadolivre",
+    "image": "assets/img/painel-1-placa-fotovoltaica-550w-da-solar-energia-solar.jpg",
+    "current_price": "R$ 699,00",
+    "mlb_id": "MLB92697992065"
+  },
+  {
+    "name": "Drone Dji Neo 2 Standard Dji069",
+    "link": "https://meli.la/2hSe54b",
+    "source": "mercadolivre",
+    "image": "assets/img/drone-dji-neo-2-standard-dji069.jpg",
+    "current_price": "R$ 2.199,00",
+    "mlb_id": "MLB99766348592"
+  },
+  {
+    "name": "Case Capa Microfone Hollyland Lark M2 Completa",
+    "link": "https://meli.la/27VHWkv",
+    "source": "mercadolivre",
+    "image": "assets/img/case-capa-microfone-hollyland-lark-m2-completa.jpg",
+    "current_price": "R$ 89,90",
+    "mlb_id": "MLB97485300689"
+  },
+  {
+    "name": "Microfone Lapela Hollyland Lark M2 Duplo Usb C E Lightning",
+    "link": "https://meli.la/2uWzaLs",
+    "source": "mercadolivre",
+    "image": "assets/img/microfone-lapela-hollyland-lark-m2-duplo-usb-c-e-lightning.jpg",
+    "current_price": "R$ 1.590,00",
+    "mlb_id": "MLB108419988605"
   }
 ]
