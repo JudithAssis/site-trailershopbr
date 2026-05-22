@@ -654,5 +654,33 @@
     "image": "assets/img/bomba-auto-pressurizada-3-0-gpm-45-psi-12v-11-3-ltm.jpg",
     "current_price": "Consulte",
     "mlb_id": "MLB110939076381"
+  },
+  {
+    "name": "Capa de Colchão Impermeável Matelado Casal Padrão Branco",
+    "link": "https://amzn.to/49HSN1d",
+    "source": "amazon",
+    "image": "assets/img/capa-de-colchao-impermeavel-matelado-casal-padrao-branco.jpg",
+    "current_price": "R$ 59,99"
+  },
+  {
+    "name": "Fujifilm Instax Mini Filme Instantâneo Embalagem Dupla - 20 Folhas",
+    "link": "https://amzn.to/4wJfnQR",
+    "source": "amazon",
+    "image": "assets/img/fujifilm-instax-mini-filme-instantaneo-embalagem-dupla-20-folhas.jpg",
+    "current_price": "Consulte"
+  },
+  {
+    "name": "Ssd Externo 1tb Sandisk Disco Sólido Sdssde-30 Cor Preto",
+    "link": "https://meli.la/1kMWJMV",
+    "source": "mercadolivre",
+    "image": "assets/img/ssd-externo-1tb-sandisk-disco-solido-sdssde-30-cor-preto.jpg",
+    "current_price": "Consulte"
+  },
+  {
+    "name": "Kit 5 Luminária Solar 30 Led's Arandela Prova D'água Com Sensor de Presença",
+    "link": "https://meli.la/2N1FMi7",
+    "source": "mercadolivre",
+    "image": "assets/img/kit-5-luminaria-solar-30-leds-arandela-prova-dagua-com-sensor-de-presenca-automatico-estrutura-preto-recarregavel-solar-marca-redd.jpg",
+    "current_price": "Consulte"
   }
 ]
